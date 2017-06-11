@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="demo.mapper.CaForbiddenMapper">
+  <insert id="addForbidden" parameterType="demo.entity.CaForbindden">
+      	INSERT INTO D_CA_FORBIDDEN(ID,CREATE_USER,LAST_UPDATE_USER,ROWSTATE,FORBIDDEN_SINCE)
+      	VALUES (#{ID, jdbcType=VARCHAR},#{createUser, jdbcType=VARCHAR},#{lastUpdateuser, jdbcType=VARCHAR},#{rowState, jdbcType=INTEGER},#{forbiddenSince,jdbcType=TIMESTAMP});
+    
+  </insert>
+
+</mapper>
