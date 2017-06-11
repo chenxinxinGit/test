@@ -7,5 +7,6 @@ package demo.common;
  */
 public class CommonUtils {
 
+	private String name;
 
 }
