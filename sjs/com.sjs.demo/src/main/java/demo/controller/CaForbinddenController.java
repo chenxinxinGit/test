@@ -204,4 +204,10 @@ public class CaForbinddenController {
 	public void print(){
 		system.pring("===========================上班啦");
 	}
+	public void print2(){
+		system.pring("===========================上班啦");
+	}
+	public void print3(){
+		system.pring("===========================上班啦");
+	}
 }
