@@ -197,5 +197,8 @@ public class CaForbinddenController {
 		logger.info("=======================删除黑名单查询====*****end***********");
 		return result;
 	}
-
+	/**
+	 * 星期二
+	 * 今天星期五啊 明天补上办
+	 */
 }
