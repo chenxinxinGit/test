@@ -201,4 +201,7 @@ public class CaForbinddenController {
 	 * 星期二
 	 * 今天星期五啊 明天补上办
 	 */
+	public void print(){
+		system.pring("===========================上班啦");
+	}
 }
