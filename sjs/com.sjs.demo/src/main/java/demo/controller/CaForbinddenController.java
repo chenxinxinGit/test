@@ -200,5 +200,11 @@ public class CaForbinddenController {
 	/**
 	 * 星期二
 	 * 今天星期五啊 明天补上办
+	 * 明天星期六不用上班哦
 	 */
+	public void getTt(){
+		for(int i=0;i<10;i++){
+			system.print("=================");
+		}
+	}
 }
